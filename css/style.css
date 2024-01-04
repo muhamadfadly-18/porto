@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.header-bg{
+	background-color: #222;
+	background-size: cover;
+}
+a {
+	color: #222;
+	transition: all 0.3s ease;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+.active2 {
+	color: #06C;
+}
+.btn {
+	padding: 8px 20px !important;
+}
+.border-radius-new {
+	border-radius: 20px;
+}
+.nav-link {
+	font-weight: bold;
+	margin: 0 10px;
+}
+.tt {
+	top: -30px;
+	left: -10px;
+	position: absolute;
+	background-color: #FFF;
+	border-radius: 100%;
+	width: 70px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.tt i {
+	font-size: 26px;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+.ll i {
+	font-size: 26px;
+}
+.kk {
+	background-color: #FFF;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+.kk i {
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+.hh {
+	font-size: 54px;
+}
+.vv {
+	transition: all 0.3s ease;
+}
+@media screen and (max-width: 992px) {
+.mobile-bg {
+	background-color:#74a3fa;
+}
+}
+
+video{
+	height: 300px;
+}
+.logo img{
+	height: 200px;
+	width: 200px;
+	border-radius: 90px;
+}
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+
+.portfolio-item .item{
+	/*width:303px;*/
+	float:left;
+	margin-bottom:10px;
+}
+.progress {
+	width: 150px;
+	height: 150px;
+	background: none;
+	position: relative;
+  }
+  
+  .progress::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 6px solid #eee;
+	position: absolute;
+	top: 0;
+	left: 0;
+  }
+  
+  .progress>span {
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+  }
+  
+  .progress .progress-left {
+	left: 0;
+  }
+  
+  .progress .progress-bar {
+	width: 100%;
+	height: 100%;
+	background: none;
+	border-width: 6px;
+	border-style: solid;
+	position: absolute;
+	top: 0;
+  }
+  .logo img{
+	width:150px;height:150px;
+
+  }
+  
+  .progress .progress-left .progress-bar {
+	left: 100%;
+	border-top-right-radius: 80px;
+	border-bottom-right-radius: 80px;
+	border-left: 0;
+	-webkit-transform-origin: center left;
+	transform-origin: center left;
+  }
+  
+  .progress .progress-right {
+	right: 0;
+  }
+  
+  .progress .progress-right .progress-bar {
+	left: -100%;
+	border-top-left-radius: 80px;
+	border-bottom-left-radius: 80px;
+	border-right: 0;
+	-webkit-transform-origin: center right;
+	transform-origin: center right;
+  }
+  
+  .progress .progress-value {
+	position: absolute;
+	top: 0;
+	left: 0;
+  }
+  
+  /*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSE
+  * ==========================================
+  *
+  */
+  
+  /* body {
+	background: #ff7e5f;
+	background: -webkit-linear-gradient(to right, #ff7e5f, #feb47b);
+	background: linear-gradient(to right, #ff7e5f, #feb47b);
+	min-height: 100vh;
+  } */
+  
+  .rounded-lg {
+	border-radius: 1rem;
+  }
+  
+  .text-gray {
+	color: #aaa;
+  }
+  
+  div.h4 {
+	line-height: 1rem;
+  }
+
+/* For mobile devices */
+@media (max-width: 880px) {
+	/* Adjustments for smaller screens */
+	body {
+		overflow-x: hidden; /* Menonaktifkan scrolling horizontal untuk seluruh halaman */
+	  }
+	  
+	  #about .kk{
+		opacity: 0.4;
+		/* display: flex; */
+	  }
+	/* Example: Reduce padding or margin */
+	.navbar {
+	  padding: 10px;
+	}
+	.logo img{
+		width: 50px;
+		height: 50px;
+		margin-top: 7%;
+	}
+  
+	/* Example: Adjust font size */
+	h1 {
+	  font-size: 24px;
+	}
+  
+	/* Example: Modify column layout */
+	.col-lg-6 {
+	  width: 100%;
+	}
+  
+	/* Example: Adjust image size */
+	.img-fluid {
+	  max-width: 100%;
+	  height: auto;
+	}
+.projek video{
+	max-width: 90vw;
+}
+
+.projek p,h5 {
+	display: none;
+}
+h1{
+	font-size: 20px;
+}
+p{
+	width: 300px;
+	margin-left: 10%
+}
+.projek2{
+	padding-left: 10000px;
+	display: none;
+
+}
+  
+	/* Other adjustments as needed */
+  }
+  
